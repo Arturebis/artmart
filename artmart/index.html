@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artmart</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+                else {
+                    document.querySelector(".menu nav ul").style.display ='flex';
+                }
+        });
+    };
+    </script>
+
+</head>
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+
+    <header>
+        <div class="container">
+            <div class="logo">
+            <img src="assets/images/logo-removebg-preview.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <div id="MenuMobile2" class="menuMobile">
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>   
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">Menu</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Cadastre-se</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Os melhores preços de todo o mercado</h1>
+                <h2>Não consegue ir até nossas lojas? <br> Sem problemas, <span style="color: #ffafaf;" >trazemos ela até você!</span> <br> Garantimos que <span style="color: #ffafaf;" >sairá com o carrinho cheio.</span> </h2>
+            </div>
+
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Nossos Produtos</div>
+                    <div class="banner_desc">Nossos alimentos são verificados diaramente, garantindo a qualidade do produto.</div>
+                    <a href="">Para as compras!</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Trabalhe Conosco</div>
+                    <div class="banner_desc">Venha fazer parte da nossa equipe!</div>
+                    <a href="">Saiba mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horário de funcionamento</div>
+                    <div class="opening_hours1">
+                        <div class="monday_friday">Segunda à Sexta</div>
+                        <div class="hour">07:00 - 21:00</div>
+                    </div>
+                    
+                    <div class="opening_hours2">
+                        <div class="saturday">Sábado</div>
+                        <div class="hour">07:00 - 19:00</div>
+                    </div>
+
+                    <div class="opening_hours3">
+                        <div class="sunday">Domingo</div>
+                        <div class="hour">07:00 - 17:00 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO -->
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Nossas Notícias</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body flex">
+                            <article>
+                                <a href="">
+                                    <div class="news_date">
+                                        <div class="news_posted_at">26 OCT 23</div>
+                                        <div class="news_comments">15</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/logothumb.png" alt="">
+                                    </div>
+                                    <div class="news_title">Inauguração da Artmart Unidade Distrito Federal</div>
+                                    <div class="news_resume">Uma nova unidade da Artmart foi inaugurada no Distrito Federal, estamos muito animados para receber vocês!</div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_date">
+                                        <div class="news_posted_at">13 AGO 23</div>
+                                        <div class="news_comments">10</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/logothumb.png" alt="">
+                                    </div>
+                                    <div class="news_title">Inauguração da Artmart Unidade Bahia</div>
+                                    <div class="news_resume">Uma nova unidade da Artmart foi inaugurada no Estado da Bahia, estamos muito animados para receber vocês!</div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_date">
+                                        <div class="news_posted_at">5 MAI 23</div>
+                                        <div class="news_comments">17</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/logothumb.png" alt="">
+                                    </div>
+                                    <div class="news_title">Inauguração da Artmart Unidade Espírito Santo</div>
+                                    <div class="news_resume">Uma nova unidade da Artmart foi inaugurada no Espírito Santo, estamos muito animados para receber vocês!</div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_date">
+                                        <div class="news_posted_at">19 MAR 23</div>
+                                        <div class="news_comments">14</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/logothumb.png" alt="">
+                                    </div>
+                                    <div class="news_title">Inauguração da Artmart Unidade Rio de Janeiro</div>
+                                    <div class="news_resume">Uma nova unidade da Artmart foi inaugurada no Rio de Janeiro, estamos muito animados para receber vocês!</div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Nossas Unidades</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body">
+                            <div class="unidades1">
+                                <div class="uni1">MG</div>
+                                <div class="uni1">SP</div>
+                            </div>
+                            <div class="unidades2">
+                                <div class="uni2">RJ</div>
+                                <div class="uni2">ES</div>
+                            </div>
+                            <div class="unidades3">
+                                <div class="uni3">BA</div>
+                                <div class="uni3">DF</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Dúvidas?</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body">
+                            <div class="duvidatexto">Ficou com dúvida sobre os produtos? <br> Entre em contato com a gente!
+                            <div>Telefone: <span style="font-weight: bold;">+55 (31) 99654-8800</span></div>
+                            <div>E-mail: suportartmart@gmail.com</div>
+                            <div>Ou envie-nos um <a href="">formulário</a> em nosso fórum.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <div class="fm_text">Entregamos na sua casa</div>
+                        <div class="fm_desc">Sabemos que, na correria, muitas vezes não dá para ir ao supermercado. Faça suas compras sem precisar de sair de casa!</div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <div class="fm_text">Formas de pagamento</div>
+                        <div class="fm_desc">Você pode escolher qual forma de pagamento é mais adequada para você. Aceitamos cartão de crédito, débito e Pix.</div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <div class="fm_text">Segurança da compra garantida.</div>
+                        <div class="fm_desc fontsmall">Garantimos que a sua compra estará em boas mãos. Você pode rastrear a sua compra utilizando o código de rastreamento enviado via e-mail logo após ter feito a compra.</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Sede Artmart</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body">
+                                <div class="sede_info">
+                                    <div class="sede_adress">Av. Barros de Melo, nº 243</div>
+                                    <div class="sede_tel">+55 (31) 3541-8860</div>
+                                </div>
+                                <div class="sede_info">
+                                    <div class="sede_adress">Belo Horizonte, Minas Gerais</div>
+                                    <div class="sede_tel">+55 (31) 3541-6677</div>
+                                </div> 
+                                <div class="sede_info">
+                                    <a href="">artmart@gmail.com</a>
+                                </div>
+                                <div class="social_icon">
+                                    <a href="">
+                                        <img src="assets/images/icons/facebook_icon.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="assets/images/icons/instagram_icon.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="assets/images/icons/twitter_icon.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="assets/images/icons/whatsapp_icon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Perguntas Frequentes</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body">
+                                <div class="FAQ_all">
+                                    <div class="FAQ"> - Quanto tempo, aproximadamente, demora para a compra chegar?</div>
+                                    <div class="FAQ_date">1 semana atrás</div>
+
+                                    <div class="FAQ"> - Posso pedir para remover algum item da compra mesmo após ter feito o pagamento?</div>
+                                    <div class="FAQ_date">1 mês atrás</div>
+
+                                    <div class="FAQ"> - Se houver algum produto danificado, posso pedir que me enviem outra unidade?</div>
+                                    <div class="FAQ_date">2 meses atrás</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Avaliações dos Clientes</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body">
+                                <div class="FAQ_all">
+                                    <div class="FAQ"> "Ótimo atendimento, os itens da compra vieram todos como pedi."</div>
+                                    <div class="star_rate">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star half.png" alt="">
+                                    </div>
+                                    <div class="FAQ_date">3 horas atrás</div>
+
+                                    <div class="FAQ"> "Demorou um pouco para chegar, mas chegou tudo certinho aqui."</div>
+                                    <div class="star_rate">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star.png" alt="">
+                                    </div>
+                                    <div class="FAQ_date">18 horas atrás</div>
+
+                                    <div class="FAQ"> "Fui atendido muito bem. Atendente muito gente fina, fiz até amizade com o motorista!"</div>
+                                    <div class="star_rate">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                        <img src="assets/images/icons/red star preenchida.png" alt="">
+                                    </div>
+                                    <div class="FAQ_date">1 dia atrás</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+             Copyright © - Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
